@@ -42,6 +42,6 @@ docker run -it -p 8083:8083 key-map:v0.0.0
 ```
 If you need to dynamically configure environment variable,
 ```shell
-docker run -it -p 8083:8083 -e CONNECT_BOOTSTRAP_SERVERS=192.168.8.141:9092 key-map:v0.0.0
+docker run -it -p 8083:8083 -e CONNECT_BOOTSTRAP_SERVERS=<host>:9092 key-map:v0.0.0
 ```
 Enjoy the custom connector behaviours by providing command to port **8083**
